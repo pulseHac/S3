@@ -1,0 +1,9 @@
+### variables for S3 bucket resource ###
+variable "s3_bucket_name" {}
+variable "s3_acl" {}
+variable "s3_policy" {}
+
+
+
+
+### variables for XYZ ###
