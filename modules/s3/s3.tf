@@ -18,4 +18,8 @@ resource "aws_s3_bucket" "static_site" {
 }]
 EOF
   }
+  tags = {
+    Name        = var.tags_name
+    Environment = var.tags_env
+  }
 }
