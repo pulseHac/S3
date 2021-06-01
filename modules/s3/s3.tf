@@ -22,4 +22,8 @@ EOF
     Name        = var.tags_name
     Environment = var.tags_env
   }
+
+  versioning {
+    enabled = var.versioning # default = false
+  }
 }
