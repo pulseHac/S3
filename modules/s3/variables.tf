@@ -5,8 +5,8 @@ variable "s3_policy" {}
 variable "tags_name" {}
 variable "tags_env" {}
 
-
-
-
+variable "versioning" {
+  default = false
+}
 
 ### variables for XYZ ###
